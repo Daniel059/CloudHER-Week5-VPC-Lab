@@ -155,6 +155,7 @@ Follow these steps in order to replicate this deployment. Each step's screenshot
 **What this does:** An Internet Gateway is the VPC's only doorway to the public internet. On its own it grants no subnet internet access — it just makes the door available for a route table to point at.
 
 ![Internet Gateway attached](Screenshots/03-igw.png)
+![Internet Gateway attached](Screenshots/03-igw-vpc.png)
 *`CloudHER-IGW` in state **Attached** to `CloudHER-VPC`*
 
 ---
@@ -374,6 +375,10 @@ To avoid unexpected AWS charges once the lab is fully reviewed:
 6. Delete unused security groups and key pairs
 
 ---
+
+## Homework
+
+See [HOMEWORK.md](homework.md) for the multi-subnet design challenge, bonus tasks, and reflection answers.
 
 ## Author
 
