@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CloudHER Week 5 — Custom VPC</title>
+  <style>
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+    body {
+      font-family: 'Segoe UI', system-ui, sans-serif;
+      background: linear-gradient(135deg, #0f1b2d 0%, #1a2f4a 100%);
+      color: #f4efe6;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 2rem;
+    }
+    .card {
+      background: rgba(255, 255, 255, 0.06);
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      border-radius: 16px;
+      padding: 3rem 2.5rem;
+      max-width: 520px;
+      text-align: center;
+      box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+    }
+    .badge {
+      display: inline-block;
+      background: #e8624d;
+      color: white;
+      font-size: 0.75rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      padding: 0.35rem 0.9rem;
+      border-radius: 999px;
+      margin-bottom: 1.5rem;
+    }
+    h1 { font-size: 2rem; font-weight: 700; margin-bottom: 0.5rem; }
+    h2 { font-size: 1.15rem; font-weight: 400; color: #a8b5c4; margin-bottom: 1.75rem; }
+    .divider { width: 48px; height: 3px; background: #e8624d; margin: 0 auto 1.75rem; border-radius: 2px; }
+    p { font-size: 0.95rem; color: #c9d1d9; line-height: 1.6; }
+    .footer { margin-top: 2rem; font-size: 0.8rem; color: #6b7a8a; }
+  </style>
+</head>
+<body>
+  <div class="card">
+    <div class="badge">CloudHER by WIICA</div>
+    <h1>CloudHER Week 5</h1>
+    <h2>Welcome to My Custom VPC</h2>
+    <div class="divider"></div>
+    <p>
+      This website is running on an EC2 instance inside a custom VPC
+      with public and private subnets, an Internet Gateway, and a
+      properly configured route table.
+    </p>
+    <p class="footer">Week 5 — Amazon VPC Networking Lab</p>
+  </div>
+</body>
+</html>
